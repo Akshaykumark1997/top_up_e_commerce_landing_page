@@ -3,11 +3,11 @@ import React from "react";
 function NavBar() {
   return (
     <div className="bg-white">
-      <div className="flex justify-between h-20 max-w-[1800px] mx-auto items-center lg:px-16 md:px-7 px-4">
+      <div className="flex justify-between h-20 max-w-[1800px] mx-auto items-center lg:px-16 md:px-7 min-[250px]:px-0 min-[350px]:px-4"> 
         <div className="flex">
           <div>
             <img
-              src="../../../images/8104ce3d-41e8-4ff8-aeea-6d9579fb19c7.png"
+              src="/images/8104ce3d-41e8-4ff8-aeea-6d9579fb19c7.png" className="min-[250px]:w-28"
               alt=""
             />
           </div>
@@ -30,7 +30,7 @@ function NavBar() {
               EN
             </button>
           </div>
-          <div className="flex ml-4 bg-[#F1F1F1] items-center rounded-lg">
+          <div className="flex ml-4 bg-[#F1F1F1] items-center rounded-lg min-[250px]:w-20 min-[350px]:w-auto">
             <div className="w-28 h-10 flex flex-col justify-center">
               <p className="text-[10px] font-light text-[#9A9A9A]">
                 12 product

@@ -4,6 +4,8 @@ import Hero from "../../components/hero/Hero";
 import NewArraival from "../../components/new_arraivals_section/NewArraival";
 import Footer from "../../components/footer/Footer";
 import Category from "../../components/category_section/Category";
+import Accessories from "../../components/accessories_section/Accessories";
+import Credits from "../../components/credits/Credits";
 
 export default function Home() {
   return (
@@ -17,7 +19,9 @@ export default function Home() {
           </div>
         </div>
         <Category />
+        <Accessories />
         <Footer />
+        <Credits />
       </div>
     </div>
   );
