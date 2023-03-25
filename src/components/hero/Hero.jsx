@@ -1,24 +1,4 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-// import React from "react";
-
-// function Hero() {
-//   return (
-//     <div className="bg-[#EEEEEE] flex justify-center flex-col relative">
-//       <div className="lg:px-14">
-//         <img src="../../../images/Group 1172@2x.png" alt="" />
-//       </div>
-//       <div className="absolute bottom-3 left-[50%] translate-x-[-50%]">
-//         <button className="w-14 h-0.5 bg-white mx-1"></button>
-//         <button className="w-14 h-0.5 bg-white mx-1"></button>
-//         <button className="w-14 h-0.5 bg-white mx-1"></button>
-//         <button className="w-14 h-0.5 bg-white mx-1"></button>
-//         <button className="w-14 h-0.5 bg-white mx-1"></button>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Hero;
 import React, { useState, useEffect } from "react";
 
 function Hero() {
