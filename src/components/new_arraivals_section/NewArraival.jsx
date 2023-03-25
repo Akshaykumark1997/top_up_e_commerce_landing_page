@@ -76,11 +76,11 @@ function NewArraival() {
                 <h1 className="text-left">{ele.name}</h1>
               </div>
               <div className="flex">
-                <p className="line-through text-left text-[#989898] text-[12px]">
+                <p className="line-through text-left text-[#989898] min-[350px]:text-[10px] sm:text-[12px]">
                   {ele.priceOld}
                 </p>
-                <p className="text-[#AC2D11] font-bold text-[12px]">{ele.priceNew}</p>
-                <p className="text-[#428D00] text-[12px]">({ele.discount})</p>
+                <p className="text-[#AC2D11] font-bold min-[350px]:text-[10px] sm:text-[12px]">{ele.priceNew}</p>
+                <p className="text-[#428D00]  min-[350px]:text-[10px] sm:text-[12px]">({ele.discount})</p>
               </div>
             </div>
           ))}
@@ -98,11 +98,11 @@ function NewArraival() {
                 <h1 className="text-left">{ele.name}</h1>
               </div>
               <div className="flex">
-                <p className="line-through text-left text-[#989898] text-[12px]">
+                <p className="line-through text-left text-[#989898] min-[350px]:text-[10px] sm:text-[12px]">
                   {ele.priceOld}
                 </p>
-                <p className="text-[#AC2D11] font-bold text-[12px]">{ele.priceNew}</p>
-                <p className="text-[#428D00] text-[12px]">({ele.discount})</p>
+                <p className="text-[#AC2D11] font-bold min-[350px]:text-[10px] sm:text-[12px]">{ele.priceNew}</p>
+                <p className="text-[#428D00] min-[350px]:text-[10px] sm:text-[12px]">({ele.discount})</p>
               </div>
             </div>
           ))}
@@ -120,11 +120,11 @@ function NewArraival() {
                 <h3 className="text-left">{ele.name}</h3>
               </div>
               <div className="flex">
-                <p className="line-through text-left text-[#989898] text-[12px]">
+                <p className="line-through text-left text-[#989898] min-[350px]:text-[10px] sm:text-[12px]">
                   {ele.priceOld}
                 </p>
-                <p className="text-[#AC2D11] font-bold text-[12px]">{ele.priceNew}</p> 
-                <p className="text-[#428D00] text-[12px]">({ele.discount})</p>
+                <p className="text-[#AC2D11] font-bold min-[350px]:text-[10px] sm:text-[12px]">{ele.priceNew}</p> 
+                <p className="text-[#428D00] min-[350px]:text-[10px] sm:text-[12px]">({ele.discount})</p>
               </div>
             </div>
           ))}

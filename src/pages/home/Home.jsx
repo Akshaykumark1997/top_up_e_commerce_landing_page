@@ -3,6 +3,7 @@ import NavBar from "../../components/navbar/NavBar";
 import Hero from "../../components/hero/Hero";
 import NewArraival from "../../components/new_arraivals_section/NewArraival";
 import Footer from "../../components/footer/Footer";
+import Category from "../../components/category_section/Category";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
             <NewArraival />
           </div>
         </div>
+        <Category />
         <Footer />
       </div>
     </div>
